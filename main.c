@@ -34,6 +34,7 @@ motor(r_motor,speed_avg);
 motor(l_motor,0);
 msleep(timer);
 }
+//CHANGE
 int rightTurn(){
 printf("Turning right \n"); 
 motor(l_motor,speed_avg);
